@@ -25,7 +25,7 @@ ul li{
   text-decoration: none;
   list-style: none;
   padding: 7px;
-  margin-top: 50px;
+  margin-top: 20px;
   
 }
 li span{
@@ -44,7 +44,7 @@ li span{
 }
 .header h2{
   text-align: center;
-  margin-top: 130px;
+  margin-top: 60px;
   color: #ffffff;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 700;
