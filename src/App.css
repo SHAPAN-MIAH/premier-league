@@ -22,6 +22,7 @@ ul li{
   text-decoration: none;
   list-style: none;
   padding: 7px;
+  margin-top: 20px;
 }
 li span{
   color: white;
@@ -39,7 +40,7 @@ li span{
 }
 .header h2{
   text-align: center;
-  margin-top: 60px;
+  margin-top: 80px;
   color: #ffffff;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 700;
