@@ -1,38 +1,60 @@
 .App {
-  text-align: center;
+  font-family: sans 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav{
+  display: grid;
+  
+}
+.logo{
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.logo img{
+  width: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: auto;
+}
+ul li{
+  text-decoration: none;
+  list-style: none;
+  padding: 7px;
+  margin-top: 50px;
+  
+}
+li span{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header{
+  height: 550px;
+  background:
+  linear-gradient(#00000075,#00000075),
+  linear-gradient(#00000075,#00000075),	
+  url(./image/2021-01-02T173945Z_1555640591_UP1EH121D295P_RTRMADP_3_SOCCER-ENGLAND-BRH-WLV-REPORT.webp) center center fixed;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-bottom: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header h2{
+  text-align: center;
+  margin-top: 130px;
+  color: #ffffff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+}
+.social-icon{
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.social-icon a{
+  color: rgb(255, 255, 255);
+  padding: 10px;
 }

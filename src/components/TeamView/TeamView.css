@@ -1,0 +1,35 @@
+.teamView{
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    transition: all 1s;
+}
+.teamView:hover{
+    transform: scale(.95)
+}
+.teamView h3, h5{
+    color: rgb(59, 59, 59);
+}
+.teamView img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.explore-btn{
+    padding: 10px 30px;
+    background-color: rgb(230, 0, 107);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.explore-btn:hover{
+    background-color: rgb(158, 0, 145);
+}
+.btnLink{
+    margin-top: 20px;
+}

@@ -1,0 +1,37 @@
+{
+    background-color: antiquewhite;
+}
+
+.teamView-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.club{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: rgb(102, 102, 102);
+    margin-bottom: 5px;
+}
+.club span{
+    color: brown;
+}
+.title-heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+    color: brown;
+    font-weight: 700;
+    
+}
+
+@media (max-width:768px){
+    .teamView-container{
+        grid-template-columns: 1fr;
+    }
+}
