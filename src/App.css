@@ -4,14 +4,11 @@
 }
 
 .nav{
-  display: grid;
+  display: flex;
   
 }
 .logo{
   margin-top: 10px;
-  color: #ffffff;
-  font-size: 35px;
-  font-weight: 600;
 }
 .logo img{
   width: 200px;
@@ -25,8 +22,6 @@ ul li{
   text-decoration: none;
   list-style: none;
   padding: 7px;
-  margin-top: 20px;
-  
 }
 li span{
   color: white;
